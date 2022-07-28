@@ -45,3 +45,9 @@ def catch_all(path):
     return app.send_static_file("index.html")
 ```
 
+Now, you can run flask just with:
+
+```
+$ flask run
+```
+
